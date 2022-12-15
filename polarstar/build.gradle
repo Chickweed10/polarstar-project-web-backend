@@ -14,18 +14,6 @@ configurations {
 	}
 }
 
-bootJar {
-	enabled = false
-}
-
-jar {
-	enabled = true
-}
-
-springBoot {
-	mainClass = 'com.chickweed.andriod.polarstar.PolarstarApplication'
-}
-
 repositories {
 	mavenCentral()
 }
